@@ -1,0 +1,43 @@
+.header-container {
+    background-color: #10002B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 1.4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-container .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container .icon-container svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.header-container .icon-container h1 {
+    font-size: 1.5rem;
+}
+
+.header-container .options-container a{
+    margin: 0 .8rem;
+    font-size: .9rem;
+}
+
+
+
+
+

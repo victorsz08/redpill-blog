@@ -1,0 +1,35 @@
+.footer-container {
+    display: flex;
+    background-color: #10002B;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    padding: 3rem;
+    transform: translateY(130px);
+}
+
+
+.footer-container .info-container {
+    width: 300px;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-container .info-container svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-container .about-container {
+    width: 400px;
+    padding: 1rem;
+}
+
+.footer-container .about-container p {
+    font-size: .8rem;
+    margin-top: 1rem;
+    font-weight: 200;
+    font-style: italic;
+}
